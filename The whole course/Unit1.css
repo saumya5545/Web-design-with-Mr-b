@@ -1,0 +1,98 @@
+html {
+    --main: #ffbb98;
+    --main-light: #fbe0c3;
+    --sceondry: #344648;
+    --sceondry-light: #7d8e95;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    background-color: var(--main-light);
+}
+.selection {
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    align-items: center;
+    background-color: var(--main);
+}
+.selection button {
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 500;
+    background-color: transparent;
+    border: 3px solid transparent;
+    color: white;
+}
+.selection button:focus {
+    transition: 0.5s;
+    font-size: 29px;
+    background-color: white;
+    box-shadow: 0 8px 32px 0 white;
+    border-radius: 10px;
+    width: 8vw;
+    height: 6vh;
+    transform: translate(0px, -2vh);
+    color: var(--sceondry);
+}
+.selection button:hover {
+    border-top: 3px solid white;
+    transition: 0.5s;
+}
+.container {
+    height: 73vh;
+    margin-top: 10vh;
+    display: flex;
+}
+.GoBack{
+    background-color: var(--sceondry);
+    height: 70px;
+    width: 250px;
+    color: var(--main-light);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;  
+    position: relative;
+    top: 5vh;
+    border: 0px;
+
+}
+img{
+    width: 50vw;
+    transform: translate(10vw,8vh); 
+    border-radius: 15px;
+}
+
+.left{
+    position: relative;
+    top: -10%;
+    margin-left: 8vw;
+   width: 28vw;
+}
+
+.mainHeading{
+    color: var(--sceondry);
+    font-size: 48px;
+    font-family: Playwrite NZ;
+    margin-top:0px;
+}
+
+h1 {
+    color: var(--sceondry);
+    font-size: 96px;
+    font-family: Playwrite NZ;
+    margin-bottom:0px;
+}
+
+h3{
+    color: var(--sceondry);
+    font-size: 32px;
+    font-family: Montserrat;
+}
+p{
+    color: var(--sceondry);
+    font-size: 24px;
+    font-family: Montserrat;
+}

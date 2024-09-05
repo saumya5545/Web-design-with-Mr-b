@@ -1,0 +1,312 @@
+html {
+    --main: #ffbb98;
+    --main-light: #fbe0c3;
+    --sceondry: #344648;
+    --sceondry-light: #7d8e95;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    background-color: var(--main);
+}
+#container {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+.hero {
+    height: 100vh;
+    background-color: white;
+}
+.SideBar {
+    background-color: var(--main);
+}
+.back-to-top {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 0px;
+    position: fixed;
+    font-size: 50px;
+    background-color: var(--main);
+    color: var(--sceondry);
+    font-weight: bold;
+    top: 88vh;
+    right: 2vw;
+}
+.back-to-top:hover {
+    box-shadow: 0 8px 32px 0 white;
+    transition: 0.5s;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 13vh;
+}
+header div {
+    border-top: 3px solid transparent;
+}
+header div p {
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: var(--sceondry);
+}
+.logo img {
+    height: 50px;
+}
+.list {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    background-color: var(--main-light);
+    width: 200px;
+    border-radius: 20px;
+}
+.list ul {
+    list-style-type: none;
+}
+.list a {
+    font-family: Roboto;
+    font-size: 15px;
+    color: var(--sceondry);
+    text-decoration: none;
+}
+
+.Navigation:hover .list {
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 100;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.452);
+}
+.Navigation:hover,
+.crazy-games:hover,
+.whatsapp:hover,
+.about-me:hover {
+    border-top: 3px solid var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.Navigation:hover p {
+    color: var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.crazy-games:hover p {
+    color: var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.whatsapp:hover p {
+    color: var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.about-me:hover p {
+    color: var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.SideBar h1 {
+    color: white;
+    width: 600px;
+    font-size: 50px;
+    position: relative;
+    font-family: Playwrite NZ;
+    text-align: left;
+    left: 70px;
+    top: 20%;
+}
+.HeroImage img {
+    height: 45vh;
+}
+.HeroImage {
+    position: relative;
+    top: 15vh;
+    left: 5vw;
+}
+h2 {
+    border-bottom: 1px solid var(--sceondry-light);
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    width: 250px;
+    color: var(--sceondry-light);
+}
+.Teacher-info {
+    position: relative;
+    top: 30vh;
+    left: 1vw;
+    width: 20vw;
+    margin-right: 0px;
+}
+.Teacher {
+    display: flex;
+    justify-content: center;
+}
+.name {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 45px;
+    margin-top: 5px;
+    color: var(--sceondry);
+}
+.also-teaches {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 5px;
+    color: var(--sceondry-light);
+}
+.SideBar p {
+    font-size: 25px;
+    color: white;
+    font-family: Roboto;
+    width: 600px;
+    position: relative;
+    top: 18vh;
+    left: 4vw;
+}
+.Explore {
+    background-color: white;
+    height: 70px;
+    width: 250px;
+    border: 3px solid white;
+    color: var(--main);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    position: relative;
+    top: 25vh;
+    left: 4vw;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Explore:hover {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#Page-2-top {
+    background-color: var(--main-light);
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+.Unit1 {
+    font-size: 70px;
+    font-family: Playwrite NZ;
+    color: var(--sceondry);
+    margin-left: 2vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.Unit1Name {
+    font-size: 30px;
+    font-family: Playwrite NZ;
+    color: var(--sceondry);
+    margin-left: 2vw;
+    margin-top: 0px;
+}
+.See-projects {
+    background-color: white;
+    height: 70px;
+    width: 250px;
+    border: 0px solid white;
+    color: var(--sceondry);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-radius: 20px;
+    position: relative;
+    left: 2vw;
+}
+.See-projects:hover {
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.245);
+    background-color: white;
+    transition: 0.5s;
+    width: 300px;
+    height: 90px;
+}
+
+#Page-2-top img {
+    height: 30vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+#Page-2-top img:hover {
+    position: absolute;
+    height: 80vh;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    transform: translate(-55vw, -40vh);
+    box-shadow: 0 16px 60px 0 rgba(0, 0, 0);
+    z-index: 2;
+}
+
+.Page-2-top-right {
+    height: 50vh;
+    width: 35vw;
+}
+
+#Page-2-top li {
+    color: var(--sceondry);
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: right;
+    list-style: none;
+    margin-right: 0px;
+    width: 17vw;
+}
+.Learn-about {
+    color: var(--sceondry);
+    font-size: 35px;
+    font-family: Montserrat;
+    text-align: right;
+    margin-top: 10vh;
+}
+.lists {
+    border-left: 3px solid white;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    height: 35vh;
+}
+.selection {
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    align-items: center;
+}
+.selection button {
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 500;
+    background-color: transparent;
+    border: 3px solid transparent;
+    color: white;
+}
+.selection button:focus {
+    transition: 0.5s;
+    font-size: 35px;
+    background-color: white;
+    box-shadow: 0 8px 32px 0 white;
+    border-radius: 10px;
+    width: 8vw;
+    height: 6vh;
+    transform: translate(0px, -2vh);
+    color: var(--sceondry);
+}
+.selection button:hover {
+    border-top: 3px solid white;
+    transition: 0.5s;
+}
+a {
+    text-decoration: none;
+}

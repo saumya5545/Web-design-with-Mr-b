@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+        </style>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&family=Playwrite+US+Trad:wght@100..400&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Trad:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+        </style>
+
+        <title>Web Design (at Crocus Plains)</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="container">
+            <div class="hero">
+                <header>
+                    <div class="logo"><img src="logo.png" /></div>
+                    <div class="about-me"><p>About me</p></div>
+                    <div class="whatsapp"><p>Whatsapp</p></div>
+                    <div class="crazy-games"><p>Crazy games</p></div>
+                    <div class="Navigation">
+                        <p>Navigation</p>
+                        <div class="list">
+                            <ul>
+                                <a href="#Page-2"><li>Unit 1</li></a>
+                            </ul>
+                            <ul>
+                                <a href="#Page-2"><li>Unit 2</li></a>
+                            </ul>
+                            <ul>
+                                <a href="#Page-3"><li>Unit 3</li></a>
+                            </ul>
+                            <ul>
+                                <a href="#Page-3"><li>Unit 4</li></a>
+                            </ul>
+                            <ul>
+                                <a href="#page-4"><li>Unit 5</li></a>
+                            </ul>
+                            <ul>
+                                <a href="#page-4"><li>Unit 6</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+                <div class="Teacher">
+                    <div class="Teacher-info">
+                        <h2>Our Teacher</h2>
+                        <p class="name">Zach Brykaliuk</p>
+                        <p class="also-teaches">
+                            He teaches Math , Computer Science and Web design
+                        </p>
+                    </div>
+                    <div class="HeroImage"><img src="HeroImage.png" /></div>
+                </div>
+            </div>
+            <div class="SideBar">
+                <h1>Explore everything you will do in this beautiful course</h1>
+                <p>
+                    There are 6 units in this course (when he was teaching this
+                    course for first time) and you can explore every topic in
+                    this website
+                </p>
+                <a href="#Page-2"><button class="Explore">Explore</button></a>
+                <a href="#container"><button class="back-to-top">△</button></a>
+            </div>
+        </div>
+        <div id="Page-2">
+            <div class="Page-2-top">
+                <div>
+                    <p class="Unit1">Unit 1</p>
+                    <p class="Unit1Name" style="width: 26vw">
+                        Introduction to HTML and CSS
+                    </p>
+                    <button class="See-projects">See projects</button>
+                </div>
+                <div class="lists">
+                    <p class="Learn-about">Learn About</p>
+                    <ul>
+                        <li>HTML Tags</li>
+                        <li>Basic CSS styles</li>
+                        <li>Using Visual Studio Code</li>
+                    </ul>
+                </div>
+                <div class="Page-2-top-right">
+                    <img src="Unit1.png" />
+                </div>
+            </div>
+
+            <div class="Page-2-Bottom">
+                <div>
+                    <p class="Unit1">Unit 2</p>
+                    <p class="Unit1Name" style="width: 26vw">CSS layouts</p>
+                    <button class="See-projects">See projects</button>
+                </div>
+                <div class="lists">
+                    <p class="Learn-about">Learn About</p>
+                    <ul>
+                        <li>Grids</li>
+                        <li>Flexbox</li>
+                        <li>Arranging Websites</li>
+                    </ul>
+                </div>
+                <div class="Page-2-top-right">
+                    <img src="Unit2.png" />
+                </div>
+            </div>
+        </div>
+        <div id="page-3">
+            <div id="Page-3">
+                <div class="Page-3-top">
+                    <div class="Page-2-top-right">
+                        <img src="Unit3.png" />
+                    </div>
+                    <div class="lists-Page-3">
+                        <p class="Learn-about">Learn About</p>
+                        <ul>
+                            <li>Key Frames</li>
+                            <li>Transition</li>
+                            <li>Transform Properties</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="Unit1">Unit 3</p>
+                        <p class="Unit1Name" style="width: 26vw">Animation</p>
+                        <button class="See-projects">See projects</button>
+                    </div>
+                </div>
+                <div class="Page-3-top" style="background-color: #344648">
+                    <div style="width: 35vw; height: 50vh">
+                        <img src="Unit4.png" />
+                    </div>
+                    <div class="lists-Page-3">
+                        <p class="Learn-about" style="color: #fbe0c3">
+                            Learn About
+                        </p>
+                        <ul>
+                            <li style="color: #fbe0c3">
+                                How to link JS to HTML
+                            </li>
+                            <li style="color: #fbe0c3">On click events</li>
+                            <li style="color: #fbe0c3">Script tag</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="Unit1" style="color: #fbe0c3">Unit 4</p>
+                        <p
+                            class="Unit1Name"
+                            style="width: 26vw; color: #fbe0c3"
+                        >
+                            Java Script
+                        </p>
+                        <button class="See-projects-pg3">See projects</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page-4">
+            <div id="Page-2">
+                <div class="Page-2-top">
+                    <div>
+                        <p class="Unit1">Unit 5</p>
+                        <p class="Unit1Name" style="width: 26vw">
+                            Decision Making
+                        </p>
+                        <button class="See-projects">See projects</button>
+                    </div>
+                    <div class="lists">
+                        <p class="Learn-about">Learn About</p>
+                        <ul>
+                            <li>if statements</li>
+                            <li>Make a cool website</li>
+                            <li>else Statements</li>
+                        </ul>
+                    </div>
+                    <div class="Page-2-top-right">
+                        <img src="Unit5.png" />
+                    </div>
+                </div>
+
+                <div class="Page-2-Bottom">
+                    <div>
+                        <p class="Unit1">Unit 6</p>
+                        <p class="Unit1Name" style="width: 26vw">
+                            Objects And Arrays
+                        </p>
+                        <button class="See-projects">See projects</button>
+                    </div>
+                    <div class="lists">
+                        <p class="Learn-about">Learn About</p>
+                        <ul>
+                            <li>Make objects</li>
+                            <li>Arrays</li>
+                            <li>Suffuring</li>
+                        </ul>
+                    </div>
+                    <div class="Page-2-top-right">
+                        <img src="Unit6.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//css
+
+
+html {
+    --main: #ffbb98;
+    --main-light: #fbe0c3;
+    --sceondry: #344648;
+    --sceondry-light: #7d8e95;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    background-color: var(--main-light);
+}
+#container {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+.hero {
+    height: 100vh;
+    background-color: white;
+}
+.SideBar {
+    background-color: var(--main);
+}
+.back-to-top {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 0px;
+    position: fixed;
+    font-size: 50px;
+    background-color: var(--main);
+    color: var(--sceondry);
+    font-weight: bold;
+    top: 88vh;
+    right: 2vw;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 13vh;
+}
+header div {
+    border-top: 3px solid transparent;
+}
+header div p {
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: var(--sceondry);
+}
+.logo img {
+    height: 50px;
+}
+.list {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    background-color: var(--main-light);
+    width: 200px;
+    border-radius: 20px;
+}
+.list ul {
+    list-style-type: none;
+}
+.list a {
+    font-family: Roboto;
+    font-size: 15px;
+    color: var(--sceondry);
+    text-decoration: none;
+}
+
+.Navigation:hover .list {
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 100;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.452);
+}
+.Navigation:hover,
+.crazy-games:hover,
+.whatsapp:hover,
+.about-me:hover {
+    border-top: 3px solid var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.Navigation:hover p {
+    color: var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.crazy-games:hover p {
+    color: var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.whatsapp:hover p {
+    color: var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.about-me:hover p {
+    color: var(--main);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.SideBar h1 {
+    color: white;
+    width: 600px;
+    font-size: 50px;
+    position: relative;
+    font-family: Playwrite NZ;
+    text-align: left;
+    left: 70px;
+    top: 20%;
+}
+.HeroImage img {
+    height: 50vh;
+}
+.HeroImage {
+    position: relative;
+    top: 15vh;
+}
+h2 {
+    border-bottom: 1px solid var(--sceondry-light);
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    width: 250px;
+    color: var(--sceondry-light);
+}
+.Teacher-info {
+    position: relative;
+    top: 30vh;
+    left: 1vw;
+    width: 20vw;
+    margin-right: 0px;
+}
+.Teacher {
+    display: flex;
+    justify-content: center;
+}
+.name {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 45px;
+    margin-top: 5px;
+    color: var(--sceondry);
+}
+.also-teaches {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 5px;
+    color: var(--sceondry-light);
+}
+.SideBar p {
+    font-size: 25px;
+    color: white;
+    font-family: Roboto;
+    width: 600px;
+    position: relative;
+    top: 18vh;
+    left: 4vw;
+}
+.Explore {
+    background-color: white;
+    height: 70px;
+    width: 250px;
+    border: 3px solid white;
+    color: var(--main);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    position: relative;
+    top: 25vh;
+    left: 4vw;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Explore:hover {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#Page-2,
+#Page-3 {
+    height: 100vh;
+    margin-top: 10vh;
+    background-color: white;
+}
+.Page-2-top,
+.Page-2-Bottom,
+.Page-3-top {
+    background-color: var(--main-light);
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+.Unit1 {
+    font-size: 70px;
+    font-family: Playwrite NZ;
+    color: var(--sceondry);
+    margin-left: 2vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.Unit1Name {
+    font-size: 30px;
+    font-family: Playwrite NZ;
+    color: var(--sceondry);
+    margin-left: 2vw;
+    margin-top: 0px;
+}
+.See-projects {
+    background-color: white;
+    height: 70px;
+    width: 250px;
+    border: 0px solid white;
+    color: var(--sceondry);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-radius: 20px;
+    position: relative;
+    left: 2vw;
+}
+.See-projects:hover {
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.245);
+    background-color: var(--sceondry);
+    color: white;
+    transition: 0.5s;
+}
+
+.Page-2-top img,
+.Page-2-Bottom img,
+.Page-3-top img {
+    height: 30vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+.Page-2-top img:hover {
+    position: absolute;
+    height: 80vh;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    transform: translate(-55vw);
+    box-shadow: 0 16px 60px 0 rgba(0, 0, 0);
+    z-index: 2;
+}
+
+.Page-2-top-right,
+.Page-3-top-right {
+    height: 50vh;
+    width: 35vw;
+}
+
+.Page-2-top li,
+.Page-2-Bottom li,
+.Page-3-top li {
+    color: var(--sceondry);
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: right;
+    list-style: none;
+    margin-right: 0px;
+    width: 17vw;
+}
+.Learn-about {
+    color: var(--sceondry);
+    font-size: 35px;
+    font-family: Montserrat;
+    text-align: right;
+    margin-top: 10vh;
+}
+.lists {
+    border-left: 3px solid white;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    height: 35vh;
+}
+.Page-2-Bottom {
+    background-color: var(--sceondry);
+}
+.Page-2-Bottom P {
+    color: var(--main-light);
+}
+.Page-2-Bottom li {
+    color: var(--main-light);
+}
+.Page-2-Bottom button:hover {
+    background-color: white;
+    color: var(--sceondry);
+    z-index: 2;
+}
+.Page-2-Bottom button {
+    background-color: var(--main-light);
+    color: var(--sceondry);
+}
+.Page-2-Bottom img:hover {
+    position: absolute;
+    height: 80vh;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    transform: translate(-55vw, -50vh);
+    box-shadow: 0 16px 60px 0 rgba(0, 0, 0);
+    z-index: 2;
+}
+.lists-Page-3 {
+    border-right: 3px solid white;
+    margin-bottom: 2vh;
+    width: 30vw;
+}
+.lists-Page-3 li {
+    text-align: left;
+}
+.lists-Page-3 p {
+    text-align: left;
+    margin-left: 2vw;
+}
+.Page-3-top img {
+    margin-left: 2vw;
+}
+.Page-3-top img:hover {
+    position: absolute;
+    height: 80vh;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    transform: translate(5vw, -55vh);
+    box-shadow: 0 16px 60px 0 rgba(0, 0, 0);
+    z-index: 2;
+}
+.See-projects-pg3 {
+    background-color: var(--main-light);
+    height: 70px;
+    width: 250px;
+    border: 0px solid white;
+    color: var(--sceondry);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-radius: 20px;
+    position: relative;
+    left: 2vw;
+}
+.See-projects-pg3:hover {
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.245);
+    background-color: white;
+    color: var(--sceondry);
+    transition: 0.5s;
+    z-index: 2;
+}

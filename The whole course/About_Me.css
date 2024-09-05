@@ -1,0 +1,177 @@
+html {
+    --main: #ffbb98;
+    --main-light: #fbe0c3;
+    --sceondry: #344648;
+    --sceondry-light: #7d8e95;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--main-light);
+    margin: 0px;
+}
+
+header {
+    align-items: center;
+}
+
+h1 {
+    font-size: 69px;
+    font-family: Playwrite NZ;
+    text-align: center;
+    color: var(--sceondry);
+    transform: translate(0, -6vh);
+}
+
+.go-back {
+    background-color: var(--sceondry);
+    height: 70px;
+    width: 250px;
+    color: var(--main-light);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 0px;
+}
+
+.main-v {
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-v {
+    width: 388px;
+    height: 303px;
+    
+    position: relative;
+    background-image: url(vandan\ image.png);
+    background-size: cover;
+}
+
+.img-j {
+    width: 388px;
+    height: 318px;
+    position: relative;
+    background-size: cover;
+    background-image: url(jenil\ image.png);
+}
+
+
+.name-v {
+    text-align: center;
+}
+
+.grades-v {
+    border-right: 1px solid var(--sceondry);
+    border-left: 1px solid var(--sceondry);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 25vw;
+}
+.color {
+    background-color: var(--sceondry);
+}
+.main-s {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    height: 40vh;
+}
+.img-s {
+    margin-top: 7vh;
+    width: 348px;
+    height: 300px;
+    position: relative;
+    background-image: url(myPhoto.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.name-s {
+    margin-top: 7vh;
+    text-align: center;
+    color: var(--main-light);
+    height: 50%;
+    width: 10vw;
+}
+.grades-s {
+    margin-top: 7vh;
+    border-left: 1px solid var(--main-light);
+    border-right: 1px solid var(--main-light);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 30vw;
+    color: var(--main-light);
+    height: 50%;
+}
+.tips-s {
+    margin-top: 7vh;
+    color: var(--main-light);
+}
+.color-secondary {
+    color: var(--sceondry);
+}
+
+.subHeddings {
+    font-family: Montserrat;
+    font-size: 24px;
+}
+.margin-0 {
+    margin-top: 0px;
+}
+.hedding {
+    font-family: Playwrite NZ;
+    font-size: 50px;
+    position: absolute;
+    transform: translate(-25%, -90%);
+}
+.hedding-s {
+    font-family: Playwrite NZ;
+    font-size: 50px;
+    position: absolute;
+    transform: translate(-10%, -90%);
+}
+.main-font {
+    color: var(--main-light);
+}
+.secondary-font {
+    color: var(--sceondry);
+}
+.down {
+    transform: translate(0%, 70px);
+}
+.grade {
+    margin: 0px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+.tips {
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-top: 0px;
+    transform: translate(-10%);
+}
+.translate-25 {
+    transform: translate(25%);
+}
+.translate-12 {
+    transform: translate(12%);
+}
+.home{
+    position: relative;
+    top: 5vh;
+    left: 12vh;
+    background-color: #344648;
+    z-index: 3;
+    height: 200px;
+}
+.vandan{
+    transform: translate(-6vw,-8vh);
+}

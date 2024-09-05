@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+        </style>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&family=Playwrite+US+Trad:wght@100..400&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Trad:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+        </style>
+        <title>Web Design at Crocus</title>
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="body">
+        <div id="container">
+            <div class="hero">
+                <header>
+                    <div class="logo"><img src="logo.png" /></div>
+                    <div class="about-me">
+                        <a href="About_Me.html"><p>Our team</p></a>
+                    </div>
+                    <div class="about-me">
+                        <a href="mr-Brykaliuk.html"><p>Mr Brykaliuk</p></a>
+                    </div>
+                    <div class="whatsapp"><a href="FinalProject.html"><p>Final Project</p></a></div>
+                    <div class="Navigation">
+                        <p>Navigation</p>
+                        <div class="list">
+                            <ul>
+                                <a href="#Page-2-top" onclick="Unit1()"
+                                    ><li>Unit 1</li></a
+                                >
+                            </ul>
+                            <ul>
+                                <a href="#Page-2-top" onclick="Unit2()"
+                                    ><li>Unit 2</li></a
+                                >
+                            </ul>
+                            <ul>
+                                <a href="#Page-2-top" onclick="Unit3()"
+                                    ><li>Unit 3</li></a
+                                >
+                            </ul>
+                            <ul>
+                                <a href="#Page-2-top" onclick="Unit4()"
+                                    ><li>Unit 4</li></a
+                                >
+                            </ul>
+                            <ul>
+                                <a href="#Page-2-top" onclick="Unit5()"
+                                    ><li>Unit 5</li></a
+                                >
+                            </ul>
+                            <ul>
+                                <a href="#Page-2-top" onclick="Unit6()">
+                                    <li>Unit 6</li></a
+                                >
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+                <div class="Teacher">
+                    <div class="Teacher-info">
+                        <h2>Our Teacher</h2>
+                        <p class="name">Zach Brykaliuk</p>
+                        <p class="also-teaches">
+                            He teaches Math , Computer Science and Web design
+                        </p>
+                    </div>
+                    <div class="HeroImage"><img src="HeroImage.png" /></div>
+                </div>
+            </div>
+            <div class="SideBar">
+                <h1>Explore everything you will do in this beautiful course</h1>
+                <p>
+                    There are 6 units in this course (when he was teaching this
+                    course for first time) and you can explore every topic in
+                    this website
+                </p>
+                <a href="#Page-2-top"
+                    ><button class="Explore">Explore</button></a
+                >
+                <a href="#container"><button class="back-to-top">˄</button></a>
+            </div>
+        </div>
+        <div id="Page-2-top">
+            <div>
+                <p class="Unit1">Unit 1</p>
+                <p class="Unit1Name" style="width: 26vw">
+                    Introduction to HTML and CSS
+                </p>
+                <a href="Unit1.html" class="link"><button class="See-projects">See projects</button></a>
+            </div>
+            <div class="lists">
+                <p class="Learn-about">Learn About</p>
+                <ul>
+                    <li class="point1">HTML Tags</li>
+                    <li class="point2">Basic CSS styles</li>
+                    <li class="point3">Using Visual Studio Code</li>
+                </ul>
+            </div>
+            <div class="Page-2-top-right">
+                <img src="Unit1.png" class="image" />
+            </div>
+        </div>
+        <div class="selection">
+            <div><button onclick="Unit1()" class="btn1">Unit 1</button></div>
+            <div><button onclick="Unit2()" class="btn2">Unit 2</button></div>
+            <div><button onclick="Unit3()" class="btn3">Unit 3</button></div>
+            <div><button onclick="Unit4()" class="btn4">Unit 4</button></div>
+            <div><button onclick="Unit5()" class="btn5">Unit 5</button></div>
+            <div><button onclick="Unit6()" class="btn6">Unit 6</button></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
